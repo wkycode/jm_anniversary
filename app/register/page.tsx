@@ -5,9 +5,8 @@ import { app } from "../../firebase"
 import { useRouter } from "next/navigation"
 import { FormEvent, useState } from "react"
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth"
-import HomePage from "../HomePage"
 
-const Register = async () => {
+const Register = () => {
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   const [confirmation, setConfirmation] = useState("")
