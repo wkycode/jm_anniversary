@@ -9,10 +9,10 @@ interface HomePageProps {}
 
 export default function HomePage({}: HomePageProps) {
   return (
-    <main className="flex min-h-full flex-col items-center justify-center">
+    <main className="flex min-h-full flex-col justify-center">
       <Envelope />
       <Button
-        size="sm"
+        size="lg"
         className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg"
         onClick={(e) => {
           e.preventDefault()

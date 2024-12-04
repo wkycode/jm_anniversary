@@ -8,7 +8,7 @@ const Envelope = () => {
   return (
     <>
       <div
-        className="envlope-wrapper"
+        className="envlope-wrapper p-4"
         onClick={(e) => {
           e.preventDefault()
           setIsOpen((c) => !c)
