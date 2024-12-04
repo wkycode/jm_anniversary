@@ -41,7 +41,7 @@ export default function RootLayout({
         )}
       >
         <AuthProvider>
-          <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
+          <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
             <div className="relative flex flex-col h-screen">
               <Navbar />
               <main className="bg-sky-50 min-h-[calc(100vh-64px)]">
