@@ -78,10 +78,8 @@ const Navbar = () => {
                 <NextLink
                   className="font-bold bg-gradient-to-r from-orange-600 via-yellow-500 to-red-400 inline-block text-transparent bg-clip-text"
                   href={ele.href}
-                  onClick={(e) => {
-                    // e.preventDefault()
+                  onClick={() => {
                     setIsMenuOpen(false)
-                    // router.push(ele.href)
                   }}
                 >
                   {ele.label}

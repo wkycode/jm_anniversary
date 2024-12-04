@@ -27,11 +27,10 @@ const Year2024 = () => {
         loop={true}
         autoplay={true}
         spaceBetween={10}
-        navigation={true}
         thumbs={{
           swiper: thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null,
         }}
-        modules={[FreeMode, Navigation, Thumbs, Autoplay]}
+        modules={[FreeMode, Thumbs, Autoplay]}
         className="h-96 w-full rounded-lg"
       >
         {images.map((image, index) => (
@@ -55,7 +54,7 @@ const Year2024 = () => {
         slidesPerView={4}
         freeMode={true}
         watchSlidesProgress={true}
-        modules={[FreeMode, Navigation, Thumbs]}
+        modules={[FreeMode, Thumbs]}
         className={`thumbs mt-3 h-[75px] md:h-[150px]  w-full rounded-lg`}
       >
         {images.map((image, index) => (
