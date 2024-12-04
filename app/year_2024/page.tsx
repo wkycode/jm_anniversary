@@ -18,8 +18,8 @@ const Year2024 = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState<any>(null)
 
   return (
-    <div className="h-full flex flex-col justify-center">
-      <h1 className="text-xl font-bold bg-gradient-to-r from-orange-600 via-yellow-500 to-red-400 inline-block text-transparent bg-clip-text mb-8">
+    <div className="h-full flex flex-col items-center p-6">
+      <h1 className="text-xl font-bold bg-gradient-to-r from-orange-600 via-yellow-500 to-red-400 inline-block text-transparent bg-clip-text mb-6">
         Year 2024
       </h1>
 

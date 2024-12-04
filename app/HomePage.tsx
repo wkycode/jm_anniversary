@@ -9,7 +9,7 @@ interface HomePageProps {}
 
 export default function HomePage({}: HomePageProps) {
   return (
-    <main className="flex min-h-full flex-col justify-center">
+    <main className="flex min-h-full flex-col items-center">
       <Envelope />
       <Button
         size="lg"
