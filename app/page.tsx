@@ -5,10 +5,6 @@ import { clientConfig, serverConfig } from "../config"
 import HomePage from "./HomePage"
 
 export default async function Home() {
-  await fetch("https://api.vercel.app/blog", {
-    next: { revalidate: 10 }, // Seconds
-  })
-
   const tokens = await getTokens(cookies(), {
     apiKey: clientConfig.apiKey,
     cookieName: serverConfig.cookieName,
